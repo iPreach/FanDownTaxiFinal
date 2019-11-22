@@ -1,0 +1,23 @@
+.about_container
+	{
+		background-color: #fbba22;
+		color: black;
+		font-family: 'Century Gothic';
+	}
+	
+.about_container p
+	{		
+		font-size: 18px;
+		text-align: justify;
+		padding: 0 15px 0 15px;
+		line-height: 32px;
+	}
+	
+h1
+	{
+		font-family: 'Century Gothic';
+		font-size: 32px;
+		padding: 0 0 0 15px;
+		letter-spacing: 5px;
+		margin: 0;
+	}

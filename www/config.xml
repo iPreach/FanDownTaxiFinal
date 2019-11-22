@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>FanDownTaxi</name>
+    <description>
+        Jamaican Taxi App.
+    </description>
+    <author email="kraigdiedrick@gmail.com" href="http://phonegap.com">
+        KDDevelopment
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
+
+<plugin name="cordova-plugin-camera" spec="~4.1.0" />

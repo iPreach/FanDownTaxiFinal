@@ -1,0 +1,35 @@
+.faqs_container
+	{
+		padding: 15px;
+		background-color: #fbba22;
+	}
+	
+h1
+	{
+		font-family: 'Century Gothic';
+		font-size: 32px;
+		margin: 0;
+		text-shadow: 2px 2px lightgrey;		
+	}
+	
+ul
+	{
+		margin: 3px;
+	}
+	
+.question
+	{
+		font-family: Tahoma;
+		font-size: 20px;
+		color: green;
+		text-align: justify;
+		list-style: "Q";
+	}
+	
+.answer
+	{
+		font-family: 'Berlin Sans FB';
+		font-size: 22px;
+		color: blue;
+		text-align: justify;
+	}

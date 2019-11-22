@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Fan Down Taxi Service</title>
+        <script type="text/javascript" src="js/cordova.js"></script>
+        <script type="text/javascript" src="js/jquery.mobile-1.4.5.js"></script>
+        <script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style1.css" />
+		<link rel="stylesheet" type="text/css" href="css/ordertstyle.css" />
+		<script src="https://kit.fontawesome.com/f1186739cc.js" crossorigin="anonymous"></script>
+		<script src="js/script.js"></script>
+		<script src="js/camera.js"></script>
+
+    </head>
+    <body>	
+		<header>
+			<img src="images/footer-image.jpg" height="50px" width="480px" />
+			<div class="nav">
+				<a href="home.html" title="Home"><i class="fas fa-home"></i></a>
+				<a href="about.html" title="About"><i class="far fa-id-badge"></i></a>
+				<a href="taxi.html" title="Get A Taxi"><i class="fas fa-taxi"></i></a>
+				<a href="faqs.html" title="FAQs"><i class="fas fa-question"></i></a>
+				<a href="contact.html" title="Contact"><i class="fas fa-user"></i></a>
+			</div>
+		</header>		
+		<div class="order_container">
+			<form name="order" onsubmit="return OrderForm()">
+				<h1>
+					Order Form
+				</h1>
+				<table>
+					<tr>
+						<td class="column1 rowA">
+							Vehicle Type:
+						</td>
+						<td class="column2 rowA">
+							<select name="selectOption" style="height: 45px; border: none; width: 280px; font-size: 20px;">
+								<option value="0">Select one...</option>
+								<option value="1">Sedan</option>
+								<option value="2">Minivan</option>
+								<option value="3">Luxury</option>
+								<option value="4">Off-Road</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td class="column1 rowB">
+							Name:
+						</td>
+						<td class="column2 rowB">
+							<input type="text" name="name"
+						</td>
+					</tr>
+					<tr>
+						<td class="column1 rowA">
+							Pick up Address:
+						</td>
+						<td class="column2 rowA">
+							<input type="text" name="pAddress" />
+						</td>
+					</tr>
+					<tr>
+						<td class="column1 rowB">
+							Destination Address:
+						</td>
+						<td class="column2 rowB">
+							<input type="text" name="dAddress" />
+						</td>
+					</tr>
+					<tr>
+						<td class="column1 rowA">
+							Telphone Number:
+						</td>
+						<td class="column2 rowA">
+							<input type="tel" name="telephone" />
+						</td>
+					</tr>
+					<tr>
+						<td class="column1 rowB">
+							Picture:
+						</td>
+						<td class="column2 rowB">
+							<i class="fas fa-camera" id="camBtn" onclick="takepic();"></i>&nbsp;<img id="holder" />
+						</td>
+					</tr>
+					<tr>
+						<td class="column1 rowA" colspan="2">							
+							<center>
+								<input type="submit" value="Submit" /> &nbsp;
+								<input type="reset" value="Reset" />
+							</center>
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+		<footer>
+			<img src="images/footer-image.jpg" height="50px" width="480px" />
+			<div>
+				<p>
+					<a href="mailto:kraigdiedrick@gmail.com">Fan Down Taxi</a> &copy; 2019
+				</p>
+			</div>
+		</footer>		
+    </body>
+</html>
